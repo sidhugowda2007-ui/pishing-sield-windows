@@ -1,0 +1,38 @@
+https://www.google.com/search?q=cats
+https://example.com
+http://example.com/login
+http://192.168.1.5/admin
+http://127.0.0.1:8080/
+http://8.8.8.8/verify
+http://2130706433/
+https://paypa1.com/signin
+https://paypal.secure-login.example.top/account/verify?redirect=http%3A%2F%2Fevil.com
+https://bit.ly/3abc
+https://user:pass@evil.com/
+https://a.b.c.d.e.example.com/
+https://a.b.c.example.com/
+https://xn--pple-43d.com/
+https://аpple.com/
+https://login-microsoft.example.click/path
+https://microsoft-support.net/
+https://amaz0n.com/
+https://apple.evil.org/
+https://www.apple.com/shop
+http://this-is-a-very-long-hostname-for-testing-purposes.example.com/
+https://example.com/%25%32%46a%2f%40
+https://example.com/a?next=/home&x=1
+https://example.com/a?Return=1
+mailto:me@example.com
+not a url
+http://
+https://exa mple.com
+https://example.com/path with space?q=a b
+https://[::1]/x
+https://[2001:db8::1]/
+https://localhost:3000/
+http://netflix.example.zip/
+https://example.com/%41%42%43%44%45%46%47
+ftp://example.com/file
+https://EXAMPLE.com:443/Path
+https://chase.com.evil.co/login
+https://my-binance-login.xyz/

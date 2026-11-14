@@ -1,0 +1,38 @@
+{"u":"https://www.google.com/search?q=cats","score":0,"level":"low","ids":[]}
+{"u":"https://example.com","score":0,"level":"low","ids":[]}
+{"u":"http://example.com/login","score":21,"level":"medium","ids":["sensitive-keyword","no-https","http-sensitive-destination"]}
+{"u":"http://192.168.1.5/admin","score":8,"level":"low","ids":["private-host","no-https"]}
+{"u":"http://127.0.0.1:8080/","score":8,"level":"low","ids":["loopback-host","no-https"]}
+{"u":"http://8.8.8.8/verify","score":31,"level":"medium","ids":["ip-host","sensitive-keyword","no-https","http-sensitive-destination"]}
+{"u":"http://2130706433/","score":8,"level":"low","ids":["loopback-host","no-https"]}
+{"u":"https://paypa1.com/signin","score":35,"level":"medium","ids":["lookalike-brand","sensitive-keyword"]}
+{"u":"https://paypal.secure-login.example.top/account/verify?redirect=http%3A%2F%2Fevil.com","score":87,"level":"high","ids":["many-subdomains","brand-in-wrong-domain","sensitive-keyword","sensitive-host-keyword","encoded-structure","redirect-parameter","unusual-tld"]}
+{"u":"https://bit.ly/3abc","score":12,"level":"low","ids":["shortener"]}
+{"u":"https://user:pass@evil.com/","score":28,"level":"medium","ids":["embedded-credentials"]}
+{"u":"https://a.b.c.d.e.example.com/","score":22,"level":"medium","ids":["deep-subdomains"]}
+{"u":"https://a.b.c.example.com/","score":22,"level":"medium","ids":["deep-subdomains"]}
+{"u":"https://xn--pple-43d.com/","score":18,"level":"low","ids":["punycode"]}
+{"u":"https://аpple.com/","score":28,"level":"medium","ids":["punycode","unicode"]}
+{"u":"https://login-microsoft.example.click/path","score":42,"level":"medium","ids":["brand-in-wrong-domain","sensitive-host-keyword","unusual-tld"]}
+{"u":"https://microsoft-support.net/","score":18,"level":"low","ids":["brand-token-domain"]}
+{"u":"https://amaz0n.com/","score":28,"level":"medium","ids":["lookalike-brand"]}
+{"u":"https://apple.evil.org/","score":24,"level":"medium","ids":["brand-in-wrong-domain"]}
+{"u":"https://www.apple.com/shop","score":0,"level":"low","ids":[]}
+{"u":"http://this-is-a-very-long-hostname-for-testing-purposes.example.com/","score":16,"level":"low","ids":["no-https","long-host"]}
+{"u":"https://example.com/%25%32%46a%2f%40","score":16,"level":"low","ids":["encoded-structure"]}
+{"u":"https://example.com/a?next=/home&x=1","score":12,"level":"low","ids":["redirect-parameter"]}
+{"u":"https://example.com/a?Return=1","score":12,"level":"low","ids":["redirect-parameter"]}
+{"u":"mailto:me@example.com","score":0,"level":"low","ids":[]}
+{"u":"not a url","score":70,"level":"high","ids":["malformed"]}
+{"u":"http://","score":70,"level":"high","ids":["malformed"]}
+{"u":"https://exa mple.com","score":70,"level":"high","ids":["malformed"]}
+{"u":"https://example.com/path with space?q=a b","score":0,"level":"low","ids":[]}
+{"u":"https://[::1]/x","score":0,"level":"low","ids":["loopback-host"]}
+{"u":"https://[2001:db8::1]/","score":10,"level":"low","ids":["ip-host"]}
+{"u":"https://localhost:3000/","score":0,"level":"low","ids":["loopback-host"]}
+{"u":"http://netflix.example.zip/","score":42,"level":"medium","ids":["brand-in-wrong-domain","no-https","unusual-tld"]}
+{"u":"https://example.com/%41%42%43%44%45%46%47","score":12,"level":"low","ids":["many-escapes"]}
+{"u":"ftp://example.com/file","score":0,"level":"low","ids":[]}
+{"u":"https://EXAMPLE.com:443/Path","score":0,"level":"low","ids":[]}
+{"u":"https://chase.com.evil.co/login","score":41,"level":"medium","ids":["many-subdomains","brand-in-wrong-domain","sensitive-keyword"]}
+{"u":"https://my-binance-login.xyz/","score":26,"level":"medium","ids":["brand-token-domain","sensitive-host-keyword"]}
